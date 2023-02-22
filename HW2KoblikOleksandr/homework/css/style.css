@@ -1,0 +1,167 @@
+.tm-bg-color-primary {
+    background-color:#76cdd8;
+}
+
+.tm-quote:hover {
+    color: #76cdd8;
+    transition: all .3s linear;
+}
+
+.tm-col-md-reverse {
+    flex-direction: row-reverse;
+}
+
+section:nth-child(1) {
+    position: relative;
+}
+
+section:nth-child(1):hover::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    border-top: 50px solid #76cdd8;
+    border-left: 50px solid transparent;
+}
+
+.btn-primary {
+    background-color: seagreen;
+    border-color: seagreen;
+
+}
+
+.btn-primary:hover {
+    background-color: rgb(118, 205, 216);
+    border-color: rgb(118, 205, 216);
+    transition: all .3s linear;
+}
+
+section:nth-child(2) {
+    position: relative;
+}
+
+section:nth-child(2):hover::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-top: 50px solid #76cdd8;
+    border-right: 50px solid transparent;
+}
+
+section:nth-child(3) {
+    position: relative;
+}
+
+section:nth-child(3):hover::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    border-top: 50px solid #76cdd8;
+    border-left: 50px solid transparent;
+}
+
+.img-fluid:hover {
+    transition: all .3s linear;
+    transform: scale(1.05);
+}
+
+section:nth-child(5) {
+    margin: 20px 0 0 0;
+
+}
+
+section:nth-child(6) {
+    margin: 20px 0 0 0;
+
+}
+
+section:nth-child(5) div:nth-child(3):hover{
+    transform: scale(1.05);
+    transition: all .3s linear;
+}
+
+.btn-secondary {
+    background-color: seagreen;
+    border-color: seagreen;
+}
+
+.btn-secondary:hover {
+    background-color: #24d4d4;
+    border-color: #24d4d4;
+    transition: all .3s linear;
+}
+
+.tm-bg-color-secondary  {
+    background-color: seagreen;
+}
+
+.tm-pricing-table {
+    border-color: seagreen;
+}
+
+.tm-pricing-table:hover {
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+    transition: all .3s linear;
+}
+
+.tm-form-header {
+    background-color: #24d4d4;
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+section:nth-child(6) .tm-contact-form {
+    position: relative;
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+section:nth-child(6) {
+    position: relative;
+}
+
+section:nth-child(6)::after {
+    cursor: pointer;
+    position: absolute ;
+    content: '!';
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: white;
+    width: 25px;
+    height: 25px;
+    background-color: darkgoldenrod;
+    color: white;
+    z-index: 10;
+    top: 340px;
+    right: 190px;
+}
+
+section:nth-child(6)::before {
+    cursor: pointer;
+    position: absolute ;
+    content: '↻';
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    border: white;
+    transform: scale(1, -1) rotate(60deg);
+    width: 40px;
+    height: 40px;
+    background-color: seagreen;
+    color: white;
+    z-index: 5;
+    top: 350px;
+    right: 200px;
+}
+
