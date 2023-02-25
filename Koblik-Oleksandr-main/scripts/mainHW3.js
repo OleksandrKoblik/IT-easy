@@ -409,7 +409,7 @@
 //         break;
 // }
 
-//ternar===========
+// ternary===========
 
 // const day = +prompt("Number of day in the week");
 //     day === 1
